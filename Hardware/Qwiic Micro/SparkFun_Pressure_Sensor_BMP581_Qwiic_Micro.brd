@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -2921,11 +2921,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="6.66045625" y1="9.3329" x2="5.9151" y2="9.3329" width="0.127" layer="1"/>
 <wire x1="7.0215" y1="7.10634375" x2="7.0215" y2="8.97185625" width="0.127" layer="1"/>
 <wire x1="7.0215" y1="8.97185625" x2="6.66045625" y2="9.3329" width="0.127" layer="1"/>
-<wire x1="6.1815" y1="3.52314375" x2="6.1815" y2="6.26634375" width="0.127" layer="1"/>
-<wire x1="6.1815" y1="6.26634375" x2="7.0215" y2="7.10634375" width="0.127" layer="1"/>
+<wire x1="6.2069" y1="3.54854375" x2="6.2069" y2="6.29174375" width="0.127" layer="1"/>
+<wire x1="6.2069" y1="6.29174375" x2="7.0215" y2="7.10634375" width="0.127" layer="1"/>
 <wire x1="4.318" y1="3.937" x2="4.318" y2="3.25984375" width="0.127" layer="1"/>
 <wire x1="4.318" y1="3.25984375" x2="4.64254375" y2="2.9353" width="0.127" layer="1"/>
-<wire x1="5.59365625" y1="2.9353" x2="6.1815" y2="3.52314375" width="0.127" layer="1"/>
+<wire x1="5.59365625" y1="2.9353" x2="6.2069" y2="3.54854375" width="0.127" layer="1"/>
 <wire x1="4.64254375" y1="2.9353" x2="5.59365625" y2="2.9353" width="0.127" layer="1"/>
 <wire x1="4.5725" y1="8.89" x2="4.87538125" y2="8.89" width="0.127" layer="1"/>
 </signal>
