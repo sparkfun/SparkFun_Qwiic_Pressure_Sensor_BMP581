@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -190,7 +190,7 @@
 <rectangle x1="11.811" y1="11.811" x2="11.938" y2="12.065" layer="41"/>
 <rectangle x1="13.462" y1="13.335" x2="13.589" y2="13.589" layer="41"/>
 <rectangle x1="12.827" y1="13.335" x2="12.954" y2="13.589" layer="41"/>
-<text x="24.13" y="5.08" size="1.778" layer="16" font="vector" ratio="15" rot="SMR270" align="center">v01</text>
+<text x="24.13" y="5.08" size="1.778" layer="16" font="vector" ratio="15" rot="SMR270" align="center">v10</text>
 <text x="16.51" y="-21.59" size="1.778" layer="51" font="vector">Dryw Wade</text>
 <dimension x1="0" y1="0" x2="5.08" y2="0" x3="2.54" y3="-3.81" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="0" x2="20.32" y2="0" x3="10.16" y3="-7.62" textsize="1.778" textratio="15" layer="47" unit="inch"/>
@@ -5575,10 +5575,10 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="PROD_ID" value="CAP-00810" x="36.83" y="50.165" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="13.462" y="17.145" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="D1" library="SparkFun-LED" package="LED-0603" value="RED" x="22.606" y="18.415" smashed="yes">
-<attribute name="NAME" x="22.606" y="19.05" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-00819" x="41.656" y="-9.525" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="22.606" y="17.78" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="D1" library="SparkFun-LED" package="LED-0603" value="RED" x="22.606" y="19.05" smashed="yes">
+<attribute name="NAME" x="22.606" y="19.685" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-00819" x="41.656" y="-8.89" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="22.606" y="18.415" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="20.32" y="21.59" smashed="yes" rot="MR0"/>
 <element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="20.32" y="21.59" smashed="yes"/>
@@ -5678,7 +5678,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$11" library="output" package="#I2C#0" value="" x="12.7" y="12.446" smashed="yes" rot="MR0"/>
 <element name="U$12" library="output" package="#0X46#0" value="" x="14.097" y="15.875" smashed="yes" rot="MR0"/>
 <element name="U$15" library="output" package="#0X47#0" value="" x="11.303" y="15.875" smashed="yes" rot="MR0"/>
-<element name="U$16" library="output" package="PWR0" value="" x="22.86" y="19.685" smashed="yes"/>
+<element name="U$16" library="output" package="PWR0" value="" x="22.86" y="20.32" smashed="yes"/>
 </elements>
 <signals>
 <signal name="VDD">
@@ -5896,16 +5896,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <signal name="N$5">
 <contactref element="JP3" pad="1"/>
 <contactref element="D1" pad="A"/>
-<wire x1="21.729" y1="18.415" x2="20.447" y2="18.415" width="0.254" layer="1"/>
-<via x="20.447" y="18.415" extent="1-16" drill="0.3048"/>
-<wire x1="20.447" y1="18.415" x2="20.447" y2="15.2527" width="0.254" layer="16"/>
+<wire x1="21.729" y1="19.05" x2="20.447" y2="19.05" width="0.254" layer="1"/>
+<via x="20.447" y="19.05" extent="1-16" drill="0.3048"/>
+<wire x1="20.447" y1="19.05" x2="20.447" y2="15.2527" width="0.254" layer="16"/>
 <wire x1="20.447" y1="15.2527" x2="20.4343" y2="15.24" width="0.254" layer="16"/>
 </signal>
 <signal name="N$6">
 <contactref element="D1" pad="C"/>
 <contactref element="R5" pad="2"/>
-<wire x1="23.456" y1="17.145" x2="23.456" y2="18.388" width="0.254" layer="1"/>
-<wire x1="23.456" y1="18.388" x2="23.483" y2="18.415" width="0.254" layer="1"/>
+<wire x1="23.456" y1="17.145" x2="23.456" y2="19.023" width="0.254" layer="1"/>
+<wire x1="23.456" y1="19.023" x2="23.483" y2="19.05" width="0.254" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -5917,9 +5917,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 </mfgpreviewcolors>
 <errors>
 <approved hash="19,16,74ebc3b2f5667d11"/>
-<approved hash="19,16,fba7de093441eb20"/>
 <approved hash="19,16,c0783ecf763e2ea7"/>
 <approved hash="19,16,e980a4a3e7fd86e3"/>
+<approved hash="19,16,3ed581b70f9c4a31"/>
 </errors>
 </board>
 </drawing>

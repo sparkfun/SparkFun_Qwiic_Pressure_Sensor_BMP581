@@ -27486,13 +27486,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="167.64" y="10.16" size="2.54" layer="94" font="vector">Dryw Wade</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <wire x1="132.08" y1="0" x2="132.08" y2="88.9" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="132.08" y1="88.9" x2="132.08" y2="114.3" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="132.08" y1="114.3" x2="132.08" y2="185.42" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="132.08" y1="88.9" x2="66.04" y2="88.9" width="0.2032" layer="97" style="shortdash"/>
 <text x="12.7" y="83.82" size="2.54" layer="94" font="vector" align="center">Connectors</text>
-<text x="25.4" y="180.34" size="2.54" layer="94" font="vector" align="center">Pressure Sensor - BMP384</text>
+<text x="25.4" y="180.34" size="2.54" layer="94" font="vector" align="center">Pressure Sensor - BMP581</text>
 <text x="152.4" y="109.22" size="2.54" layer="94" font="vector" align="center">I2C Address Selection</text>
 <text x="195.58" y="96.52" size="2.54" layer="97" font="vector">I2C Address Select</text>
 <text x="195.58" y="88.9" size="2.54" layer="97" font="vector">GND</text>
@@ -27529,7 +27529,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="132.08" y1="114.3" x2="248.92" y2="114.3" width="0.2032" layer="97" style="shortdash"/>
 <text x="160.02" y="162.56" size="2.54" layer="97" font="vector">Cut traces to remove pullup resistors</text>
 <text x="30.48" y="162.56" size="2.54" layer="97" font="vector">VDD Range:</text>
-<text x="30.48" y="154.94" size="2.54" layer="97" font="vector">1.65V to 3.6V</text>
+<text x="30.48" y="154.94" size="2.54" layer="97" font="vector">1.71V to 3.6V</text>
 <wire x1="27.94" y1="167.64" x2="27.94" y2="160.02" width="0.2032" layer="97"/>
 <wire x1="27.94" y1="160.02" x2="27.94" y2="152.4" width="0.2032" layer="97"/>
 <wire x1="27.94" y1="152.4" x2="53.34" y2="152.4" width="0.2032" layer="97"/>

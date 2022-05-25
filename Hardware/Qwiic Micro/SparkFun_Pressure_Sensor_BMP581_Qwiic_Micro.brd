@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -195,7 +195,7 @@
 <dimension x1="0" y1="19.05" x2="3.81" y2="19.05" x3="1.905" y3="24.13" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="19.05" x2="1.27" y2="19.05" x3="0.635" y3="27.94" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <text x="-15.24" y="-2.54" size="1.778" layer="47" font="vector" ratio="15">Units: inches</text>
-<text x="1.27" y="18.288" size="0.8128" layer="16" font="vector" ratio="20" rot="SMR180" align="center">v01</text>
+<text x="1.27" y="18.288" size="0.8128" layer="16" font="vector" ratio="20" rot="SMR180" align="center">v10</text>
 <text x="7.62" y="-13.97" size="1.778" layer="51" font="vector">Dryw Wade</text>
 <rectangle x1="2.921" y1="9.0678" x2="3.175" y2="9.2202" layer="41"/>
 <rectangle x1="2.921" y1="9.5504" x2="3.175" y2="9.7028" layer="41"/>
@@ -2961,11 +2961,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <signal name="INT">
 <contactref element="U1" pad="7"/>
 <contactref element="J2" pad="1"/>
-<wire x1="3.56" y1="9.8507" x2="2.4172" y2="10.9935" width="0.127" layer="1"/>
-<wire x1="2.4172" y1="10.9935" x2="1.6799625" y2="10.9935" width="0.127" layer="1"/>
+<wire x1="3.56" y1="9.7237" x2="2.2902" y2="10.9935" width="0.127" layer="1"/>
+<wire x1="2.2902" y1="10.9935" x2="1.6799625" y2="10.9935" width="0.127" layer="1"/>
 <wire x1="1.6799625" y1="10.9935" x2="1.27" y2="11.4034625" width="0.127" layer="1"/>
 <wire x1="1.27" y1="11.4034625" x2="1.27" y2="13.97" width="0.127" layer="1"/>
-<wire x1="3.56" y1="9.6525" x2="3.56" y2="9.8507" width="0.127" layer="1"/>
+<wire x1="3.56" y1="9.6525" x2="3.56" y2="9.7237" width="0.127" layer="1"/>
 </signal>
 <signal name="!CSB!">
 <contactref element="U1" pad="6"/>
