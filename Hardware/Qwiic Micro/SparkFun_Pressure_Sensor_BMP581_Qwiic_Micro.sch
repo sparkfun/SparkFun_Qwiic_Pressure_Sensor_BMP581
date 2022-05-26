@@ -25644,6 +25644,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39288/1" value="ADR"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402-1/10W-0.1%" value="10K"/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25836,6 +25837,9 @@ accept 22AWG or smaller</text>
 <instance part="GND6" gate="1" x="172.72" y="58.42" smashed="yes">
 <attribute name="VALUE" x="172.72" y="58.166" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="SUPPLY3" gate="VDD" x="96.52" y="121.92" smashed="yes">
+<attribute name="VALUE" x="96.52" y="124.714" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -25879,6 +25883,12 @@ accept 22AWG or smaller</text>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="99.06" x2="172.72" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="VDD" pin="VDD"/>
+</segment>
+<segment>
+<pinref part="SUPPLY3" gate="VDD" pin="VDD"/>
+<wire x1="78.74" y1="119.38" x2="96.52" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="119.38" x2="96.52" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="CSB"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -25986,13 +25996,6 @@ accept 22AWG or smaller</text>
 <pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
 <label x="27.94" y="63.5" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="!CSB!" class="0">
-<segment>
-<wire x1="78.74" y1="119.38" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
-<label x="81.28" y="119.38" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="CSB"/>
 </segment>
 </net>
 <net name="N$5" class="0">
