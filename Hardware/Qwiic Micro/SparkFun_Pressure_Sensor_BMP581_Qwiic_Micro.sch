@@ -25712,7 +25712,7 @@ not powered!</text>
 <wire x1="78.74" y1="144.78" x2="116.84" y2="144.78" width="0.2032" layer="97"/>
 <text x="12.7" y="83.82" size="2.54" layer="94" font="vector" align="center">Connectors</text>
 <text x="149.86" y="180.34" size="2.54" layer="94" font="vector" align="center">SDA/SCL Pullups</text>
-<text x="137.16" y="162.56" size="2.54" layer="97" font="vector">Cut traces to remove pullup resistors</text>
+<text x="142.24" y="162.56" size="2.54" layer="97" font="vector">Cut traces to remove pullup resistors</text>
 <wire x1="208.28" y1="114.3" x2="208.28" y2="185.42" width="0.2032" layer="97" style="shortdash"/>
 <text x="220.98" y="180.34" size="2.54" layer="94" font="vector" align="center">Test Points</text>
 <text x="78.74" y="83.82" size="2.54" layer="94" font="vector" align="center">Power LED</text>
@@ -25720,6 +25720,8 @@ not powered!</text>
 remove LED</text>
 <text x="12.7" y="71.12" size="2.54" layer="97" font="vector">PTH connectors only
 accept 22AWG or smaller</text>
+<text x="81.28" y="106.68" size="2.54" layer="97" font="vector">CSB tied to VDD to
+prevent switching to SPI</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -25800,20 +25802,20 @@ accept 22AWG or smaller</text>
 <instance part="GND7" gate="1" x="96.52" y="17.78" smashed="yes">
 <attribute name="VALUE" x="96.52" y="17.526" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R1" gate="G$1" x="149.86" y="144.78" smashed="yes">
-<attribute name="NAME" x="149.86" y="146.304" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="149.86" y="143.256" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="R1" gate="G$1" x="157.48" y="144.78" smashed="yes">
+<attribute name="NAME" x="157.48" y="146.304" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="157.48" y="143.256" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="R2" gate="G$1" x="175.26" y="144.78" smashed="yes">
-<attribute name="NAME" x="175.26" y="146.304" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="175.26" y="143.256" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="R2" gate="G$1" x="182.88" y="144.78" smashed="yes">
+<attribute name="NAME" x="182.88" y="146.304" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="182.88" y="143.256" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="SUPPLY5" gate="VDD" x="162.56" y="152.4" smashed="yes">
-<attribute name="VALUE" x="162.56" y="155.194" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY5" gate="VDD" x="170.18" y="152.4" smashed="yes">
+<attribute name="VALUE" x="170.18" y="155.194" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="JP2" gate="G$1" x="162.56" y="144.78" smashed="yes" rot="R270">
-<attribute name="NAME" x="166.116" y="148.844" size="1.778" layer="95" font="vector" align="center"/>
-<attribute name="VALUE" x="161.798" y="140.716" size="1.778" layer="96" font="vector" align="center"/>
+<instance part="JP2" gate="G$1" x="170.18" y="144.78" smashed="yes" rot="R270">
+<attribute name="NAME" x="173.736" y="148.844" size="1.778" layer="95" font="vector" align="center"/>
+<attribute name="VALUE" x="169.418" y="140.716" size="1.778" layer="96" font="vector" align="center"/>
 </instance>
 <instance part="C1" gate="G$1" x="38.1" y="116.84" smashed="yes">
 <attribute name="NAME" x="39.624" y="119.761" size="1.778" layer="95" font="vector"/>
@@ -25877,7 +25879,7 @@ accept 22AWG or smaller</text>
 <segment>
 <pinref part="JP2" gate="G$1" pin="2"/>
 <pinref part="SUPPLY5" gate="VDD" pin="VDD"/>
-<wire x1="162.56" y1="149.86" x2="162.56" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="149.86" x2="170.18" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -25930,7 +25932,7 @@ accept 22AWG or smaller</text>
 <wire x1="172.72" y1="60.96" x2="172.72" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SDI/SDA" class="0">
+<net name="SDA" class="0">
 <segment>
 <label x="81.28" y="132.08" size="1.27" layer="95" font="vector" xref="yes"/>
 <wire x1="78.74" y1="132.08" x2="81.28" y2="132.08" width="0.1524" layer="91"/>
@@ -25948,11 +25950,11 @@ accept 22AWG or smaller</text>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="144.78" x2="144.78" y2="144.78" width="0.1524" layer="91"/>
-<label x="142.24" y="144.78" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="149.86" y1="144.78" x2="152.4" y2="144.78" width="0.1524" layer="91"/>
+<label x="149.86" y="144.78" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SCK/SCL" class="0">
+<net name="SCL" class="0">
 <segment>
 <wire x1="78.74" y1="129.54" x2="81.28" y2="129.54" width="0.1524" layer="91"/>
 <label x="81.28" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -25970,11 +25972,11 @@ accept 22AWG or smaller</text>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="180.34" y1="144.78" x2="182.88" y2="144.78" width="0.1524" layer="91"/>
-<label x="182.88" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="187.96" y1="144.78" x2="190.5" y2="144.78" width="0.1524" layer="91"/>
+<label x="190.5" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="SDO/ADR" class="0">
+<net name="ADR" class="0">
 <segment>
 <wire x1="78.74" y1="127" x2="81.28" y2="127" width="0.1524" layer="91"/>
 <label x="81.28" y="127" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -26016,14 +26018,14 @@ accept 22AWG or smaller</text>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="144.78" x2="167.64" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="144.78" x2="175.26" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="3"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="144.78" x2="154.94" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="144.78" x2="162.56" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">

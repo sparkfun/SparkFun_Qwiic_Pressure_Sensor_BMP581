@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -5850,7 +5850,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="2.54" y="17.78" smashed="yes" rot="MR0"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="SFE_LOGO_FLAME.2_INCH" x="5.08" y="19.05" smashed="yes"/>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="2.921" y="7.874" smashed="yes"/>
-<element name="LOGO4" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="12.7" y="20.32" smashed="yes" rot="MR0"/>
+<element name="LOGO4" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="12.7" y="21.59" smashed="yes" rot="MR0"/>
 <element name="R1" library="SparkFun-Resistors" package="0603" value="2.2k" x="11.43" y="7.493" smashed="yes" rot="R90">
 <attribute name="NAME" x="10.668" y="7.493" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-08272" x="35.56" y="44.323" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5914,6 +5914,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="VALUE" x="22.352" y="7.62" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="U$18" library="output" package="##CSB##1" value="" x="19.939" y="7.112" smashed="yes" rot="MR0"/>
+<element name="U$22" library="output" package="BMP5810" value="" x="12.7" y="19.177" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="VDD">
@@ -5980,7 +5981,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <via x="24.13" y="1.27" extent="1-16" drill="0.3048"/>
 <via x="19.05" y="24.13" extent="1-16" drill="0.3048"/>
 <via x="6.35" y="24.13" extent="1-16" drill="0.3048"/>
-<via x="12.7" y="19.177" extent="1-16" drill="0.3048"/>
+<via x="12.954" y="19.431" extent="1-16" drill="0.3048"/>
 <via x="10.668" y="10.414" extent="1-16" drill="0.3048"/>
 <via x="8.89" y="2.54" extent="1-16" drill="0.3048"/>
 <via x="5.715" y="10.287" extent="1-16" drill="0.3048"/>
@@ -6173,10 +6174,11 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="19,16,74ebc3b2f5667d11"/>
 <approved hash="19,16,c0783ecf763e2ea7"/>
 <approved hash="19,16,e980a4a3e7fd86e3"/>
-<approved hash="19,16,fba7de093441eb20"/>
+<approved hash="19,16,44e4e146c5695fe5"/>
+<approved hash="19,16,3ed581b70f9c4a31"/>
+<approved hash="19,16,f2fd6af6013dce1b"/>
 </errors>
 </board>
 </drawing>

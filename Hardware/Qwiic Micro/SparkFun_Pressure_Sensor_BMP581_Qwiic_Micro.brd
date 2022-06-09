@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -1219,14 +1219,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.65" y="0.68"/>
 <vertex x="0.38" y="0.68"/>
 <vertex x="0.34" y="0.65"/>
-<vertex x="0.34" y="-0.64"/>
+<vertex x="0.34" y="-0.63"/>
 <vertex x="0.36" y="-0.68"/>
-<vertex x="3.55" y="-0.68"/>
-<vertex x="3.61" y="-0.66"/>
-<vertex x="3.91" y="-0.05"/>
-<vertex x="3.93" y="0.01"/>
-<vertex x="3.63" y="0.62"/>
-<vertex x="3.59" y="0.68"/>
+<vertex x="3.89" y="-0.68"/>
+<vertex x="3.92" y="-0.66"/>
+<vertex x="3.62" y="-0.05"/>
+<vertex x="3.6" y="0.01"/>
+<vertex x="3.91" y="0.62"/>
+<vertex x="3.93" y="0.68"/>
 <vertex x="0.68" y="0.68"/>
 <vertex x="0.79" y="0.47"/>
 <vertex x="0.87" y="0.48"/>
@@ -1243,7 +1243,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="1.41" y="0.4"/>
 <vertex x="1.72" y="-0.01"/>
 <vertex x="1.75" y="-0.05"/>
-<vertex x="1.77" y="-0.06"/>
+<vertex x="1.77" y="-0.07"/>
 <vertex x="1.77" y="0.34"/>
 <vertex x="1.77" y="0.42"/>
 <vertex x="1.84" y="0.48"/>
@@ -1259,6 +1259,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="3.08" y="0.39"/>
 <vertex x="3.07" y="0.32"/>
 <vertex x="3.01" y="0.29"/>
+<vertex x="2.94" y="0.29"/>
 <vertex x="2.74" y="0.29"/>
 <vertex x="2.74" y="-0.32"/>
 <vertex x="2.74" y="-0.39"/>
@@ -1287,7 +1288,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="1.37" y="-0.45"/>
 <vertex x="1.31" y="-0.47"/>
 <vertex x="1.22" y="-0.47"/>
-<vertex x="1.17" y="-0.43"/>
+<vertex x="1.18" y="-0.43"/>
 <vertex x="1.17" y="-0.37"/>
 <vertex x="0.96" y="-0.34"/>
 <vertex x="0.96" y="-0.41"/>
@@ -2908,7 +2909,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="3.0475" y1="8.89" x2="2.54" y2="8.89" width="0.127" layer="1"/>
 <wire x1="4.5725" y1="8.39" x2="4.86159375" y2="8.39" width="0.127" layer="1"/>
 </signal>
-<signal name="SDI/SDA">
+<signal name="SDA">
 <contactref element="U1" pad="4"/>
 <contactref element="J1" pad="3"/>
 <contactref element="TP3" pad="1"/>
@@ -2932,7 +2933,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="4.64254375" y1="2.9353" x2="5.59365625" y2="2.9353" width="0.127" layer="1"/>
 <wire x1="4.5725" y1="8.89" x2="4.87538125" y2="8.89" width="0.127" layer="1"/>
 </signal>
-<signal name="SCK/SCL">
+<signal name="SCL">
 <contactref element="U1" pad="2"/>
 <contactref element="J1" pad="4"/>
 <contactref element="TP4" pad="1"/>
@@ -2950,12 +2951,13 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="4.06" y1="8.1275" x2="4.5625" y2="7.625" width="0.127" layer="1"/>
 <wire x1="4.5625" y1="7.625" x2="4.5675" y2="7.625" width="0.127" layer="1"/>
 </signal>
-<signal name="SDO/ADR">
+<signal name="ADR">
 <contactref element="U1" pad="5"/>
 <contactref element="JP1" pad="2"/>
 <via x="3.1242" y="10.8458" extent="1-16" drill="0.3048"/>
-<wire x1="3.1242" y1="10.8458" x2="3.3274" y2="11.049" width="0.127" layer="1"/>
-<wire x1="4.318" y1="11.049" x2="3.3274" y2="11.049" width="0.127" layer="1"/>
+<wire x1="3.1242" y1="10.8458" x2="3.2512" y2="10.8458" width="0.127" layer="1"/>
+<wire x1="3.4544" y1="11.049" x2="3.2512" y2="10.8458" width="0.127" layer="1"/>
+<wire x1="4.318" y1="11.049" x2="3.4544" y2="11.049" width="0.127" layer="1"/>
 <wire x1="4.5974" y1="10.7696" x2="4.318" y2="11.049" width="0.127" layer="1"/>
 <wire x1="2.54" y1="8.89" x2="2.921" y2="8.89" width="0.127" layer="16"/>
 <wire x1="2.921" y1="8.89" x2="3.3782" y2="9.3472" width="0.127" layer="16"/>
