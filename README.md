@@ -1,9 +1,16 @@
 SparkFun Pressure Sensor - BMP581 (Qwiic) 
 =========================================
 
-[![SparkFun Pressure Sensor - BMP581 (Qwiic)](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/2/5/5/0/SparkFun_Pressure_Sensor_BMP581_Qwiic-Thumbnail.jpg)](https://www.sparkfun.com/products/20170)
-
-[*SparkFun Pressure Sensor - BMP581 (Qwiic)*](https://www.sparkfun.com/products/20170)
+<table class="table table-hover table-striped table-bordered">
+  <tr align="center">
+    <td><a href="https://www.sparkfun.com/products/20170"><img src="https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/2/5/5/0/SparkFun_Pressure_Sensor_BMP581_Qwiic-Thumbnail.jpg" alt="SparkFun Pressure Sensor - BMP581 (Qwiic)"></a></td>
+    <td><a href="https://www.sparkfun.com/products/20171"><img src="https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/2/5/5/0/BMP581_Qwiic_Micro-Thumbnail.jpg" alt="SparkFun Micro Pressure Sensor - BMP581 (Qwiic)"></a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://www.sparkfun.com/products/20170"><i>SparkFun Pressure Sensor - BMP581 (Qwiic)</i></a></td>
+    <td><a href="https://www.sparkfun.com/products/20171"><i>SparkFun Micro Pressure Sensor - BMP581 (Qwiic)</i></a></td>
+  </tr>
+</table>
 
 The SparkFun Pressure Sensor - BMP581 (Qwiic) and Micro Pressure Sensor - BMP581 (Qwiic) features the BMP581 pressure sensor from Bosch Sensortec. The BMP581 boasts exceptional resolution (down to 1/64 Pa) and accuracy  and uses on-chip linearization and temperature compensation to provide true absolute data for pressure and temperature. 
 
