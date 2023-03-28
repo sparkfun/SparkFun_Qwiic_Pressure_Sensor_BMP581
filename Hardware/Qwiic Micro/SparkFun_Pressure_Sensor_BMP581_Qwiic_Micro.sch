@@ -24286,99 +24286,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="BMP581">
-<packages>
-<package name="BMP581">
-<description>&lt;h3&gt;LGA10&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 10&lt;/li&gt;
-&lt;li&gt;Pin pitch: .5mm&lt;/li&gt;
-&lt;li&gt;Area: 2.0 x 2.0 mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="1.1" y1="1.1" x2="1.1" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="1.1" y1="-1.1" x2="-1.1" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-1.1" y1="-1.1" x2="-1.1" y2="1.1" width="0.127" layer="21"/>
-<wire x1="-1.1" y1="1.1" x2="1.1" y2="1.1" width="0.127" layer="21"/>
-<circle x="1.282" y="1.258" radius="0.045253125" width="0.175" layer="21"/>
-<smd name="9" x="0.7625" y="0" dx="0.275" dy="0.25" layer="1" cream="no"/>
-<smd name="10" x="0.7625" y="0.5" dx="0.275" dy="0.25" layer="1" cream="no"/>
-<smd name="8" x="0.7625" y="-0.5" dx="0.275" dy="0.25" layer="1" cream="no"/>
-<smd name="4" x="-0.7625" y="0" dx="0.275" dy="0.25" layer="1" cream="no"/>
-<smd name="3" x="-0.7625" y="0.5" dx="0.275" dy="0.25" layer="1" cream="no"/>
-<smd name="5" x="-0.7625" y="-0.5" dx="0.275" dy="0.25" layer="1" cream="no"/>
-<smd name="2" x="-0.25" y="0.7625" dx="0.25" dy="0.275" layer="1" cream="no"/>
-<smd name="1" x="0.25" y="0.7625" dx="0.25" dy="0.275" layer="1" cream="no"/>
-<smd name="6" x="-0.25" y="-0.7625" dx="0.25" dy="0.275" layer="1" cream="no"/>
-<smd name="7" x="0.25" y="-0.7625" dx="0.25" dy="0.275" layer="1" cream="no"/>
-<wire x1="-1.05" y1="1.05" x2="1.05" y2="1.05" width="0.127" layer="51"/>
-<wire x1="1.05" y1="1.05" x2="1.05" y2="-1.05" width="0.127" layer="51"/>
-<wire x1="1.05" y1="-1.05" x2="-1.05" y2="-1.05" width="0.127" layer="51"/>
-<wire x1="-1.05" y1="-1.05" x2="-1.05" y2="1.05" width="0.127" layer="51"/>
-<text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="20" align="center">&gt;Name</text>
-<text x="0" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" align="center">&gt;Value</text>
-<rectangle x1="-1.2" y1="-1.2" x2="1.2" y2="1.2" layer="39"/>
-<rectangle x1="0.65" y1="-0.1" x2="0.875" y2="0.1" layer="31"/>
-<rectangle x1="-0.875" y1="-0.1" x2="-0.65" y2="0.1" layer="31"/>
-<rectangle x1="-0.3625" y1="0.6625" x2="-0.1375" y2="0.8625" layer="31" rot="R90"/>
-<rectangle x1="-0.3625" y1="-0.8625" x2="-0.1375" y2="-0.6625" layer="31" rot="R90"/>
-<rectangle x1="0.1375" y1="0.6625" x2="0.3625" y2="0.8625" layer="31" rot="R90"/>
-<rectangle x1="0.1375" y1="-0.8625" x2="0.3625" y2="-0.6625" layer="31" rot="R90"/>
-<rectangle x1="0.65" y1="0.4" x2="0.875" y2="0.6" layer="31"/>
-<rectangle x1="-0.875" y1="0.4" x2="-0.65" y2="0.6" layer="31"/>
-<rectangle x1="0.65" y1="-0.6" x2="0.875" y2="-0.4" layer="31"/>
-<rectangle x1="-0.875" y1="-0.6" x2="-0.65" y2="-0.4" layer="31"/>
-</package>
-</packages>
-<symbols>
-<symbol name="BMP581">
-<description>&lt;h3&gt;Bosch BMP384 Pressure Sensor&lt;/h3&gt;
-&lt;p&gt;Senses pressure from 300 hPa to 1250 hPa, sends data out over I&lt;sup&gt;2&lt;/sup&gt;C or Serial&lt;/p&gt;</description>
-<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<pin name="SDI/SDA" x="12.7" y="7.62" length="short" rot="R180"/>
-<pin name="VDD" x="-12.7" y="0" length="short" direction="pwr"/>
-<pin name="GND" x="-12.7" y="-5.08" length="short" direction="pwr"/>
-<pin name="SCK/SCL" x="12.7" y="5.08" length="short" rot="R180"/>
-<pin name="SDO/ADR" x="12.7" y="2.54" length="short" rot="R180"/>
-<pin name="CSB" x="12.7" y="-5.08" length="short" direction="in" rot="R180"/>
-<pin name="INT" x="12.7" y="-2.54" length="short" direction="out" rot="R180"/>
-<text x="-10.16" y="10.414" size="1.778" layer="95" font="vector">&gt;Name</text>
-<text x="-10.16" y="-10.16" size="1.778" layer="96" font="vector">&gt;Value</text>
-<pin name="VDDIO" x="-12.7" y="-2.54" length="short" direction="pwr"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BMP581" prefix="U">
-<description>&lt;h3&gt;Bosch BMP581 Pressure Sensor&lt;/h3&gt;
-&lt;p&gt;Senses pressure from 300 hPa to 1250 hPa, sends data out over I&lt;sup&gt;2&lt;/sup&gt;C or SPI&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="BMP581" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="BMP581">
-<connects>
-<connect gate="G$1" pin="CSB" pad="6"/>
-<connect gate="G$1" pin="GND" pad="3 8 9"/>
-<connect gate="G$1" pin="INT" pad="7"/>
-<connect gate="G$1" pin="SCK/SCL" pad="2"/>
-<connect gate="G$1" pin="SDI/SDA" pad="4"/>
-<connect gate="G$1" pin="SDO/ADR" pad="5"/>
-<connect gate="G$1" pin="VDD" pad="10"/>
-<connect gate="G$1" pin="VDDIO" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-16798" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Connectors">
 <description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
 This library contains electrically-functional connectors. 
@@ -25596,6 +25503,112 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Sensors">
+<description>&lt;h3&gt;SparkFun Sensors&lt;/h3&gt;
+This library contains sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application.
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="BMP581">
+<description>&lt;h3&gt;LGA10&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 10&lt;/li&gt;
+&lt;li&gt;Pin pitch: .5mm&lt;/li&gt;
+&lt;li&gt;Area: 2.0 x 2.0 mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="1.1" y1="1.1" x2="1.1" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="1.1" y1="-1.1" x2="-1.1" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="-1.1" x2="-1.1" y2="1.1" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="1.1" x2="1.1" y2="1.1" width="0.127" layer="21"/>
+<circle x="1.282" y="1.258" radius="0.045253125" width="0.175" layer="21"/>
+<smd name="9" x="0.7625" y="0" dx="0.275" dy="0.25" layer="1" cream="no"/>
+<smd name="10" x="0.7625" y="0.5" dx="0.275" dy="0.25" layer="1" cream="no"/>
+<smd name="8" x="0.7625" y="-0.5" dx="0.275" dy="0.25" layer="1" cream="no"/>
+<smd name="4" x="-0.7625" y="0" dx="0.275" dy="0.25" layer="1" cream="no"/>
+<smd name="3" x="-0.7625" y="0.5" dx="0.275" dy="0.25" layer="1" cream="no"/>
+<smd name="5" x="-0.7625" y="-0.5" dx="0.275" dy="0.25" layer="1" cream="no"/>
+<smd name="2" x="-0.25" y="0.7625" dx="0.25" dy="0.275" layer="1" cream="no"/>
+<smd name="1" x="0.25" y="0.7625" dx="0.25" dy="0.275" layer="1" cream="no"/>
+<smd name="6" x="-0.25" y="-0.7625" dx="0.25" dy="0.275" layer="1" cream="no"/>
+<smd name="7" x="0.25" y="-0.7625" dx="0.25" dy="0.275" layer="1" cream="no"/>
+<wire x1="-1.05" y1="1.05" x2="1.05" y2="1.05" width="0.127" layer="51"/>
+<wire x1="1.05" y1="1.05" x2="1.05" y2="-1.05" width="0.127" layer="51"/>
+<wire x1="1.05" y1="-1.05" x2="-1.05" y2="-1.05" width="0.127" layer="51"/>
+<wire x1="-1.05" y1="-1.05" x2="-1.05" y2="1.05" width="0.127" layer="51"/>
+<text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="20" align="center">&gt;Name</text>
+<text x="0" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" align="center">&gt;Value</text>
+<rectangle x1="-1.2" y1="-1.2" x2="1.2" y2="1.2" layer="39"/>
+<rectangle x1="0.65" y1="-0.1" x2="0.875" y2="0.1" layer="31"/>
+<rectangle x1="-0.875" y1="-0.1" x2="-0.65" y2="0.1" layer="31"/>
+<rectangle x1="-0.3625" y1="0.6625" x2="-0.1375" y2="0.8625" layer="31" rot="R90"/>
+<rectangle x1="-0.3625" y1="-0.8625" x2="-0.1375" y2="-0.6625" layer="31" rot="R90"/>
+<rectangle x1="0.1375" y1="0.6625" x2="0.3625" y2="0.8625" layer="31" rot="R90"/>
+<rectangle x1="0.1375" y1="-0.8625" x2="0.3625" y2="-0.6625" layer="31" rot="R90"/>
+<rectangle x1="0.65" y1="0.4" x2="0.875" y2="0.6" layer="31"/>
+<rectangle x1="-0.875" y1="0.4" x2="-0.65" y2="0.6" layer="31"/>
+<rectangle x1="0.65" y1="-0.6" x2="0.875" y2="-0.4" layer="31"/>
+<rectangle x1="-0.875" y1="-0.6" x2="-0.65" y2="-0.4" layer="31"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BMP581">
+<description>&lt;h3&gt;Bosch BMP384 Pressure Sensor&lt;/h3&gt;
+&lt;p&gt;Senses pressure from 300 hPa to 1250 hPa, sends data out over I&lt;sup&gt;2&lt;/sup&gt;C or Serial&lt;/p&gt;</description>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<pin name="SDI/SDA" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="VDD" x="-12.7" y="0" length="short" direction="pwr"/>
+<pin name="GND" x="-12.7" y="-5.08" length="short" direction="pwr"/>
+<pin name="SCK/SCL" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="SDO/ADR" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="CSB" x="12.7" y="-5.08" length="short" direction="in" rot="R180"/>
+<pin name="INT" x="12.7" y="-2.54" length="short" direction="out" rot="R180"/>
+<text x="-10.16" y="10.414" size="1.778" layer="95" font="vector">&gt;Name</text>
+<text x="-10.16" y="-10.16" size="1.778" layer="96" font="vector">&gt;Value</text>
+<pin name="VDDIO" x="-12.7" y="-2.54" length="short" direction="pwr"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BMP581" prefix="U">
+<description>&lt;h3&gt;Bosch BMP581 Pressure Sensor&lt;/h3&gt;
+&lt;p&gt;Senses pressure from 300 hPa to 1250 hPa, sends data out over I&lt;sup&gt;2&lt;/sup&gt;C or SPI&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="BMP581" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BMP581">
+<connects>
+<connect gate="G$1" pin="CSB" pad="6"/>
+<connect gate="G$1" pin="GND" pad="3 8 9"/>
+<connect gate="G$1" pin="INT" pad="7"/>
+<connect gate="G$1" pin="SCK/SCL" pad="2"/>
+<connect gate="G$1" pin="SDI/SDA" pad="4"/>
+<connect gate="G$1" pin="SDO/ADR" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="10"/>
+<connect gate="G$1" pin="VDDIO" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-16798" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -25611,7 +25624,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="H1" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U1" library="BMP581" deviceset="BMP581" device=""/>
+<part name="U1" library="SparkFun-Sensors" deviceset="BMP581" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RIGHT_ANGLE"/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
